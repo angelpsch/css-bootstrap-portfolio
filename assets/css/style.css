@@ -1,0 +1,23 @@
+.container-fluid {
+    background: linen;
+}
+
+.name {
+    background: #58A69E;
+    margin: 0 auto;
+    width: 100%;
+    padding: 0;
+}
+
+.navbar-brand {
+    color: white;
+}
+
+.navwrap li a {
+    color: grey;
+}
+
+.card-title {
+    color: #58A69E;
+}
+
