@@ -1,12 +1,20 @@
-.container-fluid {
-    background: linen;
+
+body {
+    background-image: url(/assets/images/AdobeStock_122952578\ [Converted].svg);
+    background-size: cover;
 }
 
-.name {
+
+.name-sm {
     background: #58A69E;
     margin: 0 auto;
     width: 100%;
     padding: 0;
+}
+
+
+.nav-container-sm {
+    background: white;
 }
 
 .navbar-brand {
@@ -19,5 +27,27 @@
 
 .card-title {
     color: #58A69E;
+}
+
+.container-sm.border-bottom {
+    display: inline-block;
+}
+
+.foot-sm {
+    background-color: #595959;
+    text-align: center;
+    border-top: 1em solid #58A69E;
+}
+
+
+/* container-md */
+
+.name-md {
+    background: #58A69E;
+}
+
+
+.nav-md-links a {
+    color: grey;
 }
 

@@ -6,37 +6,174 @@
 
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="assets/css/style.css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <title>Responsive Portfolio</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <title>Responsive Portfolio</title>
 </head>
+
 <body>
-  
-    <nav class="navbar navbar-expand justify-content-center name">
-      <a class="navbar-brand" href="#">Angel Schultz</a>
+  <!--540px-->
+  <div class=".container-sm d-sm-block d-md-none">
+    <nav class="navbar navbar-expand justify-content-center name-sm">
+      <a class="navbar-brand text-white name-md w-auto m-0 ml-3 p-1 font-weight-bold" href="#index"
+        style="font-size: xx-large; font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;">Angel
+        Schultz</a>
     </nav>
-        <ul class="nav justify-content-center navwrap border-bottom shadow-sm">
-            <li class="nav-item">
-              <a class="nav-link active border-right border-light" href="#">About</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link border-right border-light" href="#">Portfolio</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link border-right border-light" href="#">Contact</a>
-            </li>
-          </ul>
-      <div class="card w-auto m-3">
-        <div class="card-body">
-          <h5 class="card-title border-bottom pb-3">About Me</h5>
-          <img src="assets/images/profile.jpg" class="card-img-top pt-2">
-          <p class="card-text pt-3">With supporting text below as a natural lead-in to additional content.</p>
-          <p class="card-text pt-1">With supporting text below as a natural lead-in to additional content.</p>
+    <ul class="nav justify-content-center navwrap border-bottom shadow-sm nav-container-sm p-2">
+      <li class="nav-item">
+        <a class="nav-link active" href="#about">About
+          <span class="border-right m-0 p-0 ml-4"></span>
+        </a>
+
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#portfolio">Portfolio
+          <span class="border-right m-0 p-0 ml-4"></span>
+        </a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#contact">Contact</a>
+      </li>
+    </ul>
+    <div class="card w-auto m-3">
+      <div class="card-body">
+        <h2 class="card-title pl-3 pb-2 ml-2 mt-3 font-weight-bold"
+          style="font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;">About Me</h2>
+        <!--divider-->
+        <span class="d-block border-bottom"></span>
+        <span class="d-block border-bottom"></span>
+        <span class="d-block border-bottom"></span>
+        <!--divider end-->
+        <div class="col-sm-12 m-0 p-0 mt-3 ml-2">
+          <img src="assets/images/profile.jpg" class="img-fluid"
+            alt="Me and my dog, Nellie, outside sitting in the grass.">
+          <div class="media-body m-2 mr-0 pr-0" style="line-height: 2em;">
+            <p class="card-text pt-1">I live in Overland Park, KS. I am currently studying web development through KU's
+              Coding Bootcamp. When I'm not working towards my career goal, I am outside landscaping when it is nice
+              out, and when it is not, I am inside hanging out with my animals. </p>
+            <p class="card-text pt-1">I have three cats and two dogs. My cats' names are Harlow, Kida, and Belle. Harlow
+              and Kida are siblings about a year old and Belle is my five year old OG. My dogs' names are Nellie and
+              Finn. Finn is the newest addition to our family and is a eight month old English Cream Golden Retriever.
+              Nellie is a five year old Berger Blanc Suisse.</p>
+          </div>
         </div>
       </div>
+      <!--end of card-body-->
+    </div>
+    <!--end of card w-auto m-3-->
+  </div>
+  <!--end of container-sm-->
 
+  <!--768px-->
+  <div class="container-md d-none d-md-block d-lg-none p-0 m-0 min-vw-100 md-media-vw">
+    <nav class="navbar navbar-light bg-light w-100 p-0 shadow-sm border-bottom">
+      <a class="navbar-brand text-white name-md w-auto m-0 ml-3 p-4 font-weight-bold" href="#index"
+        style="font-size: xx-large; font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;">Angel
+        Schultz</a>
+      <ul class="nav justify-content-end nav-md-links m-3">
+        <li class="nav-item">
+          <a class="nav-link" href="#about">About
+            <span class="border-right m-0 p-0 ml-4"></span>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#portfolio">Portfolio
+            <span class="border-right m-0 p-0 ml-4"></span>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#contact">Contact
+          </a>
+        </li>
+      </ul>
+    </nav>
+
+    <div class="card mb-3 m-2 mt-4 w-90 p-3 card-start">
+      <h2 class="card-title pl-3 pb-2 ml-2 mt-3 font-weight-bold"
+        style="font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;">About Me</h2>
+      <!--divider-->
+      <span class="d-block border-bottom"></span>
+      <span class="d-block border-bottom"></span>
+      <span class="d-block border-bottom"></span>
+      <!--divider end-->
+      <div class="col-md-12 m-0 p-0 mt-3 ml-2">
+        <img src="assets/images/profile.jpg" class="mr-3 mt-2 p-0 float-md-left img-fluid" style="width: 40%;"
+          alt="Me and my dog, Nellie, outside sitting in the grass.">
+        <div class="media-body m-2 mr-0 pr-0" style="line-height: 2em;">
+          <p class="card-text pt-1">I live in Overland Park, KS. I am currently studying web development through KU's
+            Coding Bootcamp. When I'm not working towards my career goal, I am outside landscaping when it is nice out,
+            and when it is not, I am inside hanging out with my animals. </p>
+          <p class="card-text pt-1">I have three cats and two dogs. My cats' names are Harlow, Kida, and Belle. Harlow
+            and Kida are siblings about a year old and Belle is my five year old OG. My dogs' names are Nellie and Finn.
+            Finn is the newest addition to our family and is a eight month old English Cream Golden Retriever. Nellie is
+            a five year old Berger Blanc Suisse.</p>
+        </div>
+      </div>
+    </div>
+    <!--end of card-start-->
+  </div>
+  <!--end of md-media-vw-->
+
+  <!--980px-->
+  <div class= "d-none d-lg-block d-xl-none">
+    <nav class="navbar navbar-light bg-light w-100 p-0 shadow-sm border-bottom">
+      <a class="navbar-brand text-white name-md w-auto m-0 ml-3 p-4 font-weight-bold" href="#index"
+        style="font-size: xx-large; font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;">Angel
+        Schultz</a>
+      <ul class="nav justify-content-end nav-md-links m-3">
+        <li class="nav-item">
+          <a class="nav-link" href="#about">About
+            <span class="border-right m-0 p-0 ml-4"></span>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#portfolio">Portfolio
+            <span class="border-right m-0 p-0 ml-4"></span>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#contact">Contact
+          </a>
+        </li>
+      </ul>
+    </nav>
+
+    <div class="card mb-3 m-2 mt-4 w-50 p-3 card-start">
+      <h2 class="card-title pl-3 pb-2 ml-2 mt-3 font-weight-bold"
+        style="font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;">About Me</h2>
+      <!--divider-->
+      <span class="d-block border-bottom"></span>
+      <span class="d-block border-bottom"></span>
+      <span class="d-block border-bottom"></span>
+      <!--divider end-->
+      <div class="col-md-11 m-0 p-0 mt-3 ml-2">
+        <img src="assets/images/profile.jpg" class="mr-3 mt-2 p-0 float-md-left img-fluid" style="width: 40%;"
+          alt="Me and my dog, Nellie, outside sitting in the grass.">
+        <div class="media-body m-2 mr-0 pr-0" style="line-height: 2em;">
+          <p class="card-text pt-1">I live in Overland Park, KS. I am currently studying web development through KU's
+            Coding Bootcamp. When I'm not working towards my career goal, I am outside landscaping when it is nice out,
+            and when it is not, I am inside hanging out with my animals. </p>
+          <p class="card-text pt-1">I have three cats and two dogs. My cats' names are Harlow, Kida, and Belle. Harlow
+            and Kida are siblings about a year old and Belle is my five year old OG. My dogs' names are Nellie and Finn.
+            Finn is the newest addition to our family and is a eight month old English Cream Golden Retriever. Nellie is
+            a five year old Berger Blanc Suisse.</p>
+        </div>
+      </div>
+    </div>
+    <!--end of card-start-->
+  </div>
+  <!--end of md-media-vw-->
+
+  <footer class=" foot-sm p-5 m-0 fixed-bottom">
+    <span class="text-white">© Copyright</span>
+  </footer>
+
+  </div>
 </body>
+
 </html>
