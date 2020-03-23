@@ -33,6 +33,12 @@ body {
     display: inline-block;
 }
 
+.foot {
+    background-color: #595959;
+    text-align: center;
+    border-top: 1em solid #58A69E;
+}
+
 .foot-sm {
     background-color: #595959;
     text-align: center;
@@ -50,4 +56,3 @@ body {
 .nav-md-links a {
     color: grey;
 }
-
