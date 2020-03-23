@@ -1,3 +1,2 @@
-<h1> Portfolio Using CSS & Bootstrap</h1>
-<br>
-- Link to deployed application: 
+#H1 Portfolio using CSS & Bootstrap
+[Link to the deployed application](https://angelpsch.github.io/css-bootstrap-portfolio/)
